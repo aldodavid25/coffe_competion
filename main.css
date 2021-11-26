@@ -1,12 +1,23 @@
-.container{
+*{
+    ;
+}
+.header{
     display: grid;
+    background-color: blue;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: repeat(1, 100px 100px)2fr auto;
  }
 
-/* .item-1 {
-   grid-row-start: 1; 
-   grid-row-end: 2; 
-   grid-column-start: 1;
-   grid-column-end:2;
-}*/
+.main{
+    display: grid;
+    background-color: blue;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(1, 400px 400px)2fr auto;
+ }
+
+ .item-2{
+     font-size: xx-large;
+     align-self: center;
+     align-content: center;
+     text-align: center;
+ }
